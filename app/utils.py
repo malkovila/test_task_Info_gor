@@ -4,6 +4,6 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 async def embed_texts(texts):
-    """Генерация векторного представления для текста."""
+    # генерация вектора из текста
     return model.encode(texts, convert_to_tensor=True).tolist()
 
