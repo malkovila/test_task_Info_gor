@@ -22,7 +22,7 @@
 
 git clone https://github.com/malkovila/test_task_Info_gor.git
 
-test_task_Info_gor
+cd test_task_Info_gor
 
 ### 2. Создать и активировать виртуальное окружение
 
@@ -56,4 +56,4 @@ docker-compose up --build
 
 ### P.S
 
-Поиск по косинусному сходству реализован внутри ChromaDB
+Поиск по косинусному сходству реализован уже внутри ChromaDB
